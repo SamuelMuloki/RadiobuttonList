@@ -6,7 +6,7 @@
             <widgetFile path="AttrRadioButtonList/AttrRadioButtonList.xml"/>
         </widgetFiles>
         <files>
-            <file path="com/mendix/widget/custom/AssocRadioButtonList"/>
+            <file path="com/mendix/widget/custom/RadioButtonList"/>
             <file path="com/mendix/widget/custom/AttrRadioButtonList"/>
         </files>
     </clientModule>
