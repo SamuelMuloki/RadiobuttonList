@@ -53,17 +53,17 @@ YII=</icon>
 			<category>Display</category>
 			<description>Show a label for the field.</description>
 		</property>
-		<property key="captiontrue" type="translatableString" required="false">
+		<property key="captionTrue" type="translatableString" required="false">
 			<caption>True label (Boolean attribute)</caption>
 			<category>Display</category>
 			<description>In the case of the target attribute being a boolean, the text for the label can be defined here.</description>
 		</property>
-		<property key="captionfalse" type="translatableString" required="false">
+		<property key="captionFalse" type="translatableString" required="false">
 			<caption>False label (Boolean attribute)</caption>
 			<category>Display</category>
 			<description>In the case of the target attribute being a boolean, the text for the label can be defined here.</description>
 		</property>
-		<property key="readonly" type="boolean" required="true" defaultValue="false">
+		<property key="readOnly" type="boolean" required="true" defaultValue="false">
 		  <caption>Read only</caption>
 		  <category>Display</category>
 		  <description>If true, the widget is not editable.</description> 
@@ -73,7 +73,7 @@ YII=</icon>
 			<category>Display</category>
 			<description>The column size of the label control (only applied with horizontal orientation)</description>
 		</property>
-		<property key="onchangeAction" type="microflow" required="false">
+		<property key="onChangeAction" type="microflow" required="false">
 			<caption>On change</caption>
 			<category>Events</category>
 			<description></description>
