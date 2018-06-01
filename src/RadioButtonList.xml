@@ -76,10 +76,10 @@
             <description>Deselecting by clicking on the selected item</description>
         </property>
         <!-- Todo Rethink Caption -->
-        <property key="direction" type="enumeration" defaultValue="horizontal">
-            <caption>Direction</caption>
+        <property key="radioListDirection" type="enumeration" defaultValue="horizontal">
+            <caption>Radio list direction</caption>
             <category>Display</category>
-            <description>This field determines the display direction</description>
+            <description>Display direction of the radio button list</description>
             <enumerationValues>
                 <enumerationValue key="horizontal">Horizontal</enumerationValue>
                 <enumerationValue key="vertical">Vertical</enumerationValue>
@@ -102,7 +102,7 @@
         <property key="formOrientation" type="enumeration" defaultValue="horizontal">
             <caption>Form orientation</caption>
             <category>Display</category>
-            <description>The orientation of the label and checkbox items</description>
+            <description>The orientation of the label and radio button items</description>
             <enumerationValues>
                 <enumerationValue key="horizontal">Horizontal</enumerationValue>
                 <enumerationValue key="vertical">Vertical</enumerationValue>

@@ -8,14 +8,10 @@ const widgetName = pkg.widgetName;
 const name = pkg.widgetName.toLowerCase();
 
 const widgetConfig = {
-    entry: { 
-        AssocRadioButtonList: `./src/AssocRadioButtonList/components/Assoc${widgetName}Container.ts`,
-        AttrRadioButtonList: `./src/AttrRadioButtonList/components/Attr${widgetName}Container.ts`
-    },
+    entry:  `./src/components/${widgetName}Container.ts`,
     output: {
         path: path.resolve(__dirname, "dist/tmp"),
-        filename: `src/com/mendix/widget/custom/[name]/[name].js`,
-        chunkFilename: `com/mendix/widget/custom/${widgetName.toLowerCase()}/chunk[chunkhash].js`,
+            filename: `src/com/mendix/widget/custom/${name}/${widgetName}.js`,
         libraryTarget: "umd"
     }, 
     resolve: {

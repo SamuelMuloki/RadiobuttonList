@@ -6,17 +6,17 @@ interface WrapperProps {
 
 }
 
-export interface ContainerProps extends WrapperProps {
+export interface RadioButtonListContainerProps extends WrapperProps {
     class: string;
 }
 
-interface ContainerState {
+interface RadioButtonListContainerState {
     start: boolean;
 }
 
-export default class AssocRadioButtonListContainer extends Component<ContainerProps, ContainerState> {
+export default class RadioButtonListContainer extends Component<RadioButtonListContainerProps, RadioButtonListContainerState> {
 
-    constructor(props: ContainerProps) {
+    constructor(props: RadioButtonListContainerProps) {
         super(props);
     }
 
@@ -25,7 +25,7 @@ export default class AssocRadioButtonListContainer extends Component<ContainerPr
     }
 
     componentWillReceiveProps() {
-    //
+        //
     }
 
     componentWillUnmount() {
