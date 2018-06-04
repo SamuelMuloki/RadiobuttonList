@@ -23,7 +23,7 @@ Visualize all possible options in your user interface, instead of forcing your u
 
 Import the widget to your project and add either Radiobutton List or Radiobutton List Advance to a dataview on a page. Configure the properties to determine how the widget will behave in your application.
 
-###Properties
+### Properties
 
 
 ##### General
@@ -70,7 +70,7 @@ Import the widget to your project and add either Radiobutton List or Radiobutton
 
 * *Data source microflow* - Microflow returning a list of objects
 
-###Example
+### Example
 
 Example for radiobutton list based on an association:
 There are two entities defined, namely 'CompanyDepartment' and 'Employee'.
@@ -82,7 +82,7 @@ Entity to list: CompanyDepartment
 Label: Name (String attribute of  CompanyDepartment)
 Association: Employee_CompanyDeparment/CompanyDepartment.
 
-###Known bugs
+### Known bugs
 
 Onchange has no effect on the form. Workaround: add a microflow to the onchange property of the widget.This microflow must contain a change activity. The change activity must have 'refresh in a client' enabled.
 

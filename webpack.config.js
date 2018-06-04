@@ -8,7 +8,7 @@ const widgetName = pkg.widgetName;
 const name = pkg.widgetName.toLowerCase();
 
 const widgetConfig = {
-    entry:  `./src/components/${widgetName}Container.ts`,
+    entry:  `./src/Components/${widgetName}Container.ts`,
     output: {
         path: path.resolve(__dirname, "dist/tmp"),
             filename: `src/com/mendix/widget/custom/${name}/${widgetName}.js`,
